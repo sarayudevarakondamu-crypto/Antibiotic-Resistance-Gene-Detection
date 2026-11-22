@@ -21,6 +21,7 @@ def main():
     file_path = input("\nEnter the path of your FASTA file: ")
 
     try:
+
         records = read_fasta_file(file_path)
 
         reference_genes = load_reference_database()
@@ -43,6 +44,9 @@ def main():
                 reference_genes
             )
 
+            for result in results:
+                result["sequence_id"] = record["id"]
+
             all_results.extend(results)
 
         report = generate_report(all_results)
@@ -54,6 +58,7 @@ def main():
         print("\nReport saved at:", output_path)
 
     except (ValueError, FileNotFoundError) as error:
+
         print("\nError:", error)
 
 

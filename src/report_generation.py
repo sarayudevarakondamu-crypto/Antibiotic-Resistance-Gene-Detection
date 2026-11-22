@@ -10,6 +10,7 @@ RESULTS_DIR = BASE_DIR / "results"
 def generate_report(detected_genes):
 
     columns = [
+        "sequence_id",
         "gene_id",
         "gene_name",
         "antibiotic_class",
@@ -43,6 +44,8 @@ def display_report(report):
 
     if report.empty:
         print("No resistance genes detected.")
+
     else:
         print("\nResistance Gene Detection Results")
         print(report.to_string(index=False))
+
