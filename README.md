@@ -5,9 +5,7 @@
 
 The Antibiotic Resistance Gene Detection and Analysis Tool is a Python-based bioinformatics application designed to identify known antibiotic resistance genes in bacterial DNA sequences.
 
-The tool compares uploaded DNA sequences against a small reference database using local sequence alignment.
-
-It also calculates sequence statistics, reports matching genes and exports detection results as CSV files.
+The tool compares uploaded DNA sequences against a small reference database using local sequence alignment. It also calculates sequence statistics, reports matching genes and exports detection results as CSV files.
 
 ## 2. Objectives
 
@@ -25,7 +23,7 @@ It also calculates sequence statistics, reports matching genes and exports detec
 - Pandas
 - Streamlit
 - Pytest
-- VS Code
+- Visual Studio Code
 
 ## 4. Reference Gene Database
 
@@ -37,12 +35,12 @@ The application uses three reference resistance genes obtained from NCBI:
 | tetA | L06940.1 | 1218 bp |
 | sulI | AY224185.1 | 840 bp |
 
-The reference sequences were extracted using annotated GenBank records.
+The reference sequences were obtained from annotated GenBank records.
 
 ## 5. Methodology
 
-1. Upload a bacterial DNA sequence in FASTA format.
-2. Validate the nucleotide sequence.
+1. Upload bacterial DNA sequences in FASTA format.
+2. Validate the nucleotide sequences.
 3. Calculate sequence length, nucleotide counts and GC content.
 4. Load the reference resistance gene database.
 5. Perform local alignment using Biopython PairwiseAligner.
@@ -69,14 +67,14 @@ These are prototype screening thresholds and are not universal clinical criteria
 - Resistance gene screening
 - Forward and reverse-complement detection
 - Adjustable detection thresholds
-- Results table
+- Results table with sequence IDs
 - CSV report download
 
 ## 8. Testing
 
-The project includes automated tests using Pytest.
+The project includes 12 automated tests using Pytest.
 
-Currently, 12 automated tests have passed.
+All 12 automated tests passed during project testing.
 
 Additional manual tests include:
 
@@ -86,12 +84,13 @@ Additional manual tests include:
 - Synthetic mutated sequence detection
 - Positive FASTA sample
 - Negative FASTA sample
+- Multiple FASTA sequence processing
 - CSV report generation
 
 ## 9. Project Limitations
 
 - The reference database currently contains only three resistance genes.
-- The detection results depend on the selected identity and coverage thresholds.
+- Detection results depend on the selected identity and coverage thresholds.
 - Sequence similarity alone does not establish functional or clinical antibiotic resistance.
 - The application is intended for educational and research screening, not clinical diagnosis.
 
@@ -105,19 +104,21 @@ Additional manual tests include:
 
 ## 11. How to Run the Project
 
-Install the required libraries:
+### Install the required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the web application:
+### Run the web application
 
 ```bash
 streamlit run app.py
 ```
 
-Run automated tests:
+Open the local URL displayed in the terminal to access the application.
+
+### Run automated tests
 
 ```bash
 python -m pytest -v
@@ -126,3 +127,8 @@ python -m pytest -v
 ## 12. Author
 
 Developed as an academic Computational Biology project.
+
+## 13. GitHub Repository
+
+[Antibiotic Resistance Gene Detection and Analysis Tool](https://github.com/sarayudevarakondamu-crypto/Antibiotic-Resistance-Gene-Detection)
+
