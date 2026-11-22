@@ -1,0 +1,61 @@
+LOCUS       EF035599                 861 bp    DNA     linear   BCT 29-JAN-2007
+DEFINITION  Proteus sp. PR425 TEM beta lactamase (blaTEM-1) gene, complete cds.
+ACCESSION   EF035599
+VERSION     EF035599.1
+KEYWORDS    .
+SOURCE      Proteus sp. PR425
+  ORGANISM  Proteus sp. PR425
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Morganellaceae; Proteus.
+REFERENCE   1  (bases 1 to 861)
+  AUTHORS   Lal,P., Kapil,A. and Das,B.K.
+  TITLE     TEM gene producing Gram-negative bacteria isolated from AIIMS
+            hospital, India
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 861)
+  AUTHORS   Lal,P., Kapil,A. and Das,B.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-2006) Microbiology, All India Institute of
+            Medical Sciences, Room No. 2065, Hospital Infection Control
+            Laboratory, 2nd Floor AIIMS, New Delhi, Delhi 110023, India
+FEATURES             Location/Qualifiers
+     source          1..861
+                     /organism="Proteus sp. PR425"
+                     /mol_type="genomic DNA"
+                     /strain="PR425"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:419238"
+                     /geo_loc_name="India"
+     gene            1..861
+                     /gene="blaTEM-1"
+     CDS             1..861
+                     /gene="blaTEM-1"
+                     /note="broad spectrum beta lactamase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TEM beta lactamase"
+                     /protein_id="ABM89200.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRVDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPAAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+ORIGIN      
+        1 atgagtattc aacattttcg tgtcgccctt attccctttt ttgcggcatt ttgccttcct
+       61 gtttttgctc acccagaaac gctggtgaaa gtaaaagatg ctgaagatca gttgggtgca
+      121 cgagtgggtt acatcgaact ggatctcaac agcggtaaga tccttgagag ttttcgcccc
+      181 gaagaacgtt ttccaatgat gagcactttt aaagttctgc tatgtggtgc ggtattatcc
+      241 cgtgttgacg ccgggcaaga gcaactcggt cgccgcatac actattctca gaatgacttg
+      301 gttgagtact caccagtcac agaaaagcat cttacggatg gcatgacagt aagagaatta
+      361 tgcagtgctg ccataaccat gagtgataac actgctgcca acttacttct gacaacgatc
+      421 ggaggaccga aggagctaac cgcttttttg cacaacatgg gggatcatgt aactcgcctt
+      481 gatcgttggg aaccggagct gaatgaagcc ataccaaacg acgagcgtga caccacgatg
+      541 cctgcagcaa tggcaacaac gttgcgcaaa ctattaactg gcgaactact tactctagct
+      601 tcccggcaac aattaataga ctggatggag gcggataaag ttgcaggacc acttctgcgc
+      661 tcggcccttc cggctggctg gtttattgct gataaatctg gagccggtga gcgtgggtct
+      721 cgcggtatca ttgcagcact ggggccagat ggtaagccct cccgtatcgt agttatctac
+      781 acgacgggga gtcaggcaac tatggatgaa cgaaatagac agatcgctga gataggtgcc
+      841 tcactgatta agcattggta a
+//
+

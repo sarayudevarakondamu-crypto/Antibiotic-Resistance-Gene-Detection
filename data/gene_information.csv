@@ -1,0 +1,5 @@
+
+gene_id,gene_name,antibiotic_class,mechanism,accession,source,sequence_file
+EF035599.1,blaTEM-1,Beta-lactam,Beta-lactamase,EF035599.1,NCBI GenBank,blaTEM.fasta
+tetA,tetA,Tetracycline,Efflux pump,L06940.1,NCBI GenBank,tetA.fasta
+sulI,sulI,Sulfonamide,Altered dihydropteroate synthase,AY224185.1,NCBI GenBank,sul1_gene.fasta

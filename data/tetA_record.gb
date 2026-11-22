@@ -1,0 +1,71 @@
+LOCUS       ECOTCRESIS              1268 bp    DNA     linear   BCT 23-AUG-1993
+DEFINITION  Escherichia coli tetracycline resistance protein (tetA; class E)
+            gene, complete cds.
+ACCESSION   L06940
+VERSION     L06940.1
+KEYWORDS    class E tetA gene; tetracycline resistance.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 1268)
+  AUTHORS   Tovar,K., Ernst,A. and Hillen,W.
+  TITLE     Identification and nucleotide sequence of the class E tet
+            regulatory elements and operator and inducer binding of the encoded
+            purified Tet repressor
+  JOURNAL   Mol. Gen. Genet. 215 (1), 76-80 (1988)
+   PUBMED   3241623
+REFERENCE   2  (bases 1 to 1268)
+  AUTHORS   Allard,J.D. and Bertrand,K.P.
+  TITLE     Sequence of a class E tetracycline resistance gene from Escherichia
+            coli and comparison of related tetracycline efflux proteins
+  JOURNAL   J. Bacteriol. 175 (14), 4554-4560 (1993)
+   PUBMED   8331085
+FEATURES             Location/Qualifiers
+     source          1..1268
+                     /organism="Escherichia coli"
+                     /mol_type="unassigned DNA"
+                     /strain="SLH 1456A"
+                     /db_xref="taxon:562"
+     gene            21..1238
+                     /gene="tetA"
+     CDS             21..1238
+                     /gene="tetA"
+                     /standard_name="class E TetA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tetracycline resistance protein"
+                     /protein_id="AAA71915.1"
+                     /translation="MNRTVMMALVIIFLDAMGIGIIMPVLPALLREFVGKANVAENYG
+                     VLLALYAMMQVIFAPLLGRWSDRIGRRPVLLLSLLGATLDYALMATASVVWVLYLGRL
+                     IAGITGATGAVAASTIADVTPEESRTHWFGMMGACFGGGMIAGPVIGGFAGQLSVQAP
+                     FMFAAAINGLAFLVSLFILHETHNANQVSDELKNETINETTSSIREMISPLSGLLVVF
+                     FIIQLIGQIPATLWVLFGEERFAWDGVMVGVSLAVFGLTHALFQGLAAGFIAKHLGER
+                     KAIAVGILADGCGLFLLAVITQSWMVWPVLLLLACGGITLPALQGIISVRVGQVAQGQ
+                     LQGVLTSLTHLTAVIGPLVFAFLYSATRETWNGWVWIIGCGLYVVALIILRFFHPGRV
+                     IHPINKSDVQQRI"
+ORIGIN      
+        1 atcgatagag aacgttaact atgaaccgca ctgtgatgat ggcactggtc atcatttttt
+       61 tagatgctat ggggattggc ataattatgc ctgtcttgcc ggcgttatta cgggagtttg
+      121 ttggaaaggc taatgttgca gagaactacg gtgttttatt ggcgctgtat gcaatgatgc
+      181 aagtgatttt tgcccctctt ctcggccgct ggtcagatcg cataggtcgt cgccctgtat
+      241 tgttactttc acttttaggt gcaacactgg actacgcatt aatggcaaca gccagcgtag
+      301 tgtgggtgtt gtatttggga cgcttaattg ctggtattac cggtgcgact ggagctgttg
+      361 cagcctcaac aattgccgat gtcacacctg aggaatccag gacacattgg tttggtatga
+      421 tgggtgcctg ttttggtggc ggtatgattg ctggaccagt cattggtggt tttgccggtc
+      481 aactttcggt acaggcaccg tttatgttcg ctgctgctat taacgggctg gcatttctgg
+      541 tctccctatt cattttacat gagacccata atgctaatca ggttagtgac gagttaaaga
+      601 atgaaacaat caatgaaacc acatcctcca tacgcgagat gatctcccca ttatcgggat
+      661 tgttagttgt ctttttcatc attcaattga ttggccaaat ccccgcaaca ttatgggttt
+      721 tattcggaga agagcgcttc gcatgggatg gcgtaatggt cggtgtttca ttggctgtgt
+      781 tcgggctgac acacgcactg tttcaaggac ttgctgctgg ttttatcgct aaacatttgg
+      841 gagaacggaa agctatagcg gttggcattt tggctgacgg ttgtggccta tttttattgg
+      901 cggtcattac acaaagctgg atggtttggc cggttttgct gttactagct tgtggtggca
+      961 tcacacttcc cgccttgcag ggaattatat ctgttcgtgt cggtcaggta gcacagggac
+     1021 aattacaagg ggtgctgacc agtttgaccc acctgacagc tgtaatcggt ccacttgttt
+     1081 ttgcattttt gtatagtgca acccgcgaaa cgtggaatgg atgggtatgg ataattggct
+     1141 gcggattata tgtagttgca ttgattatac tgaggttttt ccatccaggt agggtaatcc
+     1201 acccgataaa taagagcgat gtacagcaga gaatttgagc aacaatgctg tacagcaccg
+     1261 taaattct
+//
+

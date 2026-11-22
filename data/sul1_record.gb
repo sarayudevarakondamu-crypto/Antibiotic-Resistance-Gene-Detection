@@ -1,0 +1,202 @@
+LOCUS       AY224185                4572 bp    DNA     linear   BCT 30-JUN-2003
+DEFINITION  Escherichia coli isolate Ec1484R class I integron integrase (intI1)
+            gene, partial cds; beta-lactamase (blaOXA-30), aminoglycoside
+            3'-(9)-O-adenylyltransferase (aadA1), quaternary ammonium compound
+            resistance protein (qacEdelta1), and sulphonamide resistance
+            protein (sulI) genes, complete cds; and unknown gene.
+ACCESSION   AY224185
+VERSION     AY224185.1
+KEYWORDS    .
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Enterobacterales; Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 4572)
+  AUTHORS   Dubois,V., Arpin,C., Quentin,C., Texier-Maugein,J., Poirel,L. and
+            Nordmann,P.
+  TITLE     Decreased Susceptibility to Cefepime in a Clinical Strain of
+            Escherichia coli Related to Plasmid- and Integron-Encoded OXA-30
+            beta-Lactamase
+  JOURNAL   Antimicrob. Agents Chemother. 47 (7), 2380-2381 (2003)
+   PUBMED   12821505
+REFERENCE   2  (bases 1 to 4572)
+  AUTHORS   Dubois,V., Arpin,C., Quentin,C., Texier-Maugein,J., Poirel,L. and
+            Nordmann,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JAN-2003) Laboratoire de microbiologie, Universite de
+            Bordeaux 2, 146 rue Leo Saignat, Bordeaux 33076, France
+FEATURES             Location/Qualifiers
+     source          1..4572
+                     /organism="Escherichia coli"
+                     /mol_type="genomic DNA"
+                     /isolate="Ec1484R"
+                     /db_xref="taxon:562"
+                     /note="clinical isolate"
+     mobile_element  <1..>4572
+                     /mobile_element_type="integron:class I"
+     gene            complement(<1..744)
+                     /gene="intI1"
+     CDS             complement(<1..744)
+                     /gene="intI1"
+                     /note="class 1 integrase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="integrase"
+                     /protein_id="AAP51283.1"
+                     /translation="MKTATAPLPPLRSVKVLDQLRERIRYLHYSLRTEQAYVHWVRAF
+                     IRFHGVRHPATLGSSEVEAFLSWLANERKVSVSTHRQALAALLFFYGKVLCTDLPWLQ
+                     EIGRPRPSRRLPVVLTPDEVVRILGFLEGEHRLFAQLLYGTGMRISEGLQLRVKDLDF
+                     DHGTIIVREGKGSKDRALMLPESLAPSLREQLSRARAWWLKDQAEGRSGVALPDALER
+                     KYPRAGHSWPWFWVFAQHTHSTDPRSGVVR"
+     misc_recomb     883..889
+                     /note="oxa-30 recombination core site"
+     gene            954..1784
+                     /gene="blaOXA-30"
+     CDS             954..1784
+                     /gene="blaOXA-30"
+                     /note="oxacillinase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase"
+                     /protein_id="AAP51284.1"
+                     /translation="MKNTIHINFAIFLIIANIIYSSASASTDISTVASPLFEGTEGCF
+                     LLYDASTNAEIAQFNKAKCATQMAPDSTFKIALSLMAFDAEIIDQKTIFKWDKTPKGM
+                     EIWNSNHTPKTWMQFSVVWVSQEITQKIGLNKIKNYLKDFDYGNQDFSGDKERNNGLT
+                     EAWLESSLKISPEEQIQFLRKIINHNLPVKNSAIENTIENMYLQDLDNSTKLYGKTGA
+                     GFTANRTLQNGWFEGFIISKSGHKYVFVSALTGNLGSNLTSSIKAKKNAITILNTLNL
+                     "
+     misc_recomb     1804..1810
+                     /note="oxa-30 inverse core site"
+     misc_recomb     1887..1893
+                     /note="aadA1 recombination core site"
+     gene            1897..2688
+                     /gene="aadA1"
+     CDS             1897..2688
+                     /gene="aadA1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="aminoglycoside 3'-(9)-O-adenylyltransferase"
+                     /protein_id="AAP51285.1"
+                     /translation="MREVVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSAVDGGLKP
+                     HSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVVHDDIIPWRYP
+                     AKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELFDPVPEQ
+                     DLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAMERLPA
+                     QYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+     misc_recomb     2690..2696
+                     /note="aadA1 inverse core site"
+     misc_recomb     2743..2749
+                     /note="recombination core site"
+     gene            2852..3199
+                     /gene="qacEdelta1"
+     CDS             2852..3199
+                     /gene="qacEdelta1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="quaternary ammonium compound resistance protein"
+                     /protein_id="AAP51286.1"
+                     /translation="MKGWLFLVIAIVGEVIATSALKSSEGFTKLAPSAVVIIGYGIAF
+                     YFLSLVLKSIPVGVAYAVWSGLGVVIITAIAWLLHGQKLDAWGFVGMGLIIAAFLLAR
+                     SPSWKSLRRPTPW"
+     gene            3193..4032
+                     /gene="sulI"
+     CDS             3193..4032
+                     /gene="sulI"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="sulphonamide resistance protein"
+                     /protein_id="AAP51287.1"
+                     /translation="MVTVFGILNLTEDSFFDESRRLDPAGAVTAAIEMLRVGSDVVDV
+                     GPAASHPDARPVSPADEIRRIAPLLDALSDQMHRVSIDSFQPETQRYALKRGVGYLND
+                     IQGFPDPALYPDIAEADCRLVVMHSAQRDGIATRTGHLRPEDALDEIVRFFEARVSAL
+                     RRSGVAADRLILDPGMGFFLSPAPETSLHVLSNLQKLKSALGLPLLVSVSRKSFLGAT
+                     VGLPVKDLGPASLAAELHAIGNGADYVRTHAPGDLRSAITFSETLAKFRSRDARDRGL
+                     DHA"
+     CDS             4160..>4572
+                     /note="Orf5"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown"
+                     /protein_id="AAP51288.1"
+                     /translation="MDSEEPPNVRVACSGDIDEVVRLMHDAAAWMSAKGTPAWDVARI
+                     DRTFAETFVLRSELLVASCSDGIVGCCTLSAEDPEFWPDALKGEAAYLHKLAVRRTHA
+                     GRGVSSALIEACRHAARTQGCAKLRLDCHPNLRGL"
+ORIGIN      
+        1 acgcacgaca ccgctccgtg gatcggtcga atgcgtgtgc tgcgcaaaaa cccagaacca
+       61 cggccaggaa tgcccggcgc gcggatactt ccgctcaagg gcgtcgggaa gcgcaacgcc
+      121 gctgcggccc tcggcctggt ccttcagcca ccatgcccgt gcacgcgaca gctgctcgcg
+      181 caggctgggt gccaagctct cgggtaacat caaggcccga tccttggagc ccttgccctc
+      241 ccgcacgatg atcgtgccgt gatcgaaatc cagatccttg acccgcagtt gcaaaccctc
+      301 actgatccgc atgcccgttc catacagaag ctgggcgaac aaacgatgct cgccttccag
+      361 aaaaccgagg atgcgaacca cttcatccgg ggtcagcacc accggcaagc gccgcgacgg
+      421 ccgaggtctt ccgatctcct gaagccaggg cagatccgtg cacagcacct tgccgtagaa
+      481 gaacagcaag gccgccaatg cctgacgatg cgtggagacc gaaaccttgc gctcgttcgc
+      541 cagccaggac agaaatgcct cgacttcgct gctgcccaag gttgccgggt gacgcacacc
+      601 gtggaaacgg atgaaggcac gaacccagtg gacataagcc tgttcggttc gtaagctgta
+      661 atgcaagtag cgtatgcgct cacgcaactg gtccagaacc ttgaccgaac gcagcggtgg
+      721 taacggcgca gtggcggttt tcatggcttg ttatgactgt ttttttgggg tacagtctat
+      781 gcctcgggca tccaagcagc aagcgcgtta cgccgtgggt cgatgtttga tgttatggag
+      841 cagcaacgat gttacgcagc agggcagtcg ccctaaaaca aagttgggcg aacccggagc
+      901 ctcattaatt gttagccgtt aaaattaagc cctttaccaa accaatactt attatgaaaa
+      961 acacaataca tatcaacttc gctatttttt taataattgc aaatattatc tacagcagcg
+     1021 ccagtgcatc aacagatatc tctactgttg catctccatt atttgaagga actgaaggtt
+     1081 gttttttact ttacgatgca tccacaaacg ctgaaattgc tcaattcaat aaagcaaagt
+     1141 gtgcaacgca aatggcacca gattcaactt tcaagatcgc attatcactt atggcatttg
+     1201 atgcggaaat aatagatcag aaaaccatat tcaaatggga taaaaccccc aaaggaatgg
+     1261 agatctggaa cagcaatcat acaccaaaga cgtggatgca attttctgtt gtttgggttt
+     1321 cgcaagaaat aacccaaaaa attggattaa ataaaatcaa gaattatctc aaagattttg
+     1381 attatggaaa tcaagacttc tctggagata aagaaagaaa caacggatta acagaagcat
+     1441 ggctcgaaag tagcttaaaa atttcaccag aagaacaaat tcaattcctg cgtaaaatta
+     1501 ttaatcacaa tctcccagtt aaaaactcag ccatagaaaa caccatagag aacatgtatc
+     1561 tacaagatct ggataatagt acaaaactgt atgggaaaac tggtgcagga ttcacagcaa
+     1621 atagaacctt acaaaacgga tggtttgaag ggtttattat aagcaaatca ggacataaat
+     1681 atgtttttgt gtccgcactt acaggaaact tggggtcgaa tttaacatca agcataaaag
+     1741 ccaagaaaaa tgcgatcacc attctaaaca cactaaattt ataaaaaatc taatggcaaa
+     1801 atcgcccaac ccttcaatca agtcgggacg gccaaaagca agcttttggc tcctctcgct
+     1861 ggcgctcggc gccccttatt tcaaacgtta aacatcatga gggaagtggt gatcgccgaa
+     1921 gtatcgactc aactatcaga ggtagttggc gtcatcgagc gccatctcga accgacgttg
+     1981 ctggccgtac atttgtacgg ctccgcagtg gatggcggcc tgaagccaca cagtgatatt
+     2041 gatttgctgg ttacggtgac cgtaaggctt gatgaaacaa cgcggcgagc tttgatcaac
+     2101 gaccttttgg aaacttcggc ttcccctgga gagagcgaga ttctccgcgc tgtagaagtc
+     2161 accattgttg tgcacgacga catcattccg tggcgttatc cagctaagcg cgaactgcaa
+     2221 tttggagaat ggcagcgcaa tgacattctt gcaggtatct tcgagccagc cacgatcgac
+     2281 attgatctgg ctatcttgct gacaaaagca agagaacata gcgttgcctt ggtaggtcca
+     2341 gcggcggagg aactctttga tccggttcct gaacaggatc tatttgaggc gctaaatgaa
+     2401 accttaacgc tatggaactc gccgcccgac tgggctggcg atgagcgaaa tgtagtgctt
+     2461 acgttgtccc gcatttggta cagcgcagta accggcaaaa tcgcgccgaa ggatgtcgct
+     2521 gccgactggg caatggagcg cctgccggcc cagtatcagc ccgtcatact tgaagctaga
+     2581 caggcttatc ttggacaaga agaagatcgc ttggcctcgc gcgcagatca gttggaagaa
+     2641 tttgttcact acgtgaaagg cgagatcacc aaggtagtcg gcaaataatg tctaacaatt
+     2701 cgttcaagcc gacgccgctt cgcggcgcgg cttaactcaa gcgttagatg cactaagcac
+     2761 ataattgctc acagccaaac tatcaggtca agtctgcttt tattattttt aagcgtgcat
+     2821 aataagccct acacaaattg ggagatatat catgaaaggc tggctttttc ttgttatcgc
+     2881 aatagttggc gaagtaatcg caacatccgc attaaaatct agcgagggct ttactaagct
+     2941 tgccccttcc gccgttgtca taatcggtta tggcatcgca ttttattttc tttctctggt
+     3001 tctgaaatcc atccctgtcg gtgttgctta tgcagtctgg tcgggactcg gcgtcgtcat
+     3061 aattacagcc attgcctggt tgcttcatgg gcaaaagctt gatgcgtggg gctttgtagg
+     3121 tatggggctc ataattgctg cctttttgct cgcccgatcc ccatcgtgga agtcgctgcg
+     3181 gaggccgacg ccatggtgac ggtgttcggc attctgaatc tcaccgagga ctccttcttc
+     3241 gatgagagcc ggcggctaga ccccgccggc gctgtcaccg cggcgatcga aatgctgcga
+     3301 gtcggatcag acgtcgtgga tgtcggaccg gccgccagcc atccggacgc gaggcctgta
+     3361 tcgccggccg atgagatcag acgtattgcg ccgctcttag acgccctgtc cgatcagatg
+     3421 caccgtgttt caatcgacag cttccaaccg gaaacccagc gctatgcgct caagcgcggc
+     3481 gtgggctacc tgaacgatat ccaaggattt cctgaccctg cgctctatcc cgatattgct
+     3541 gaggcggact gcaggctggt ggttatgcac tcagcgcagc gggatggcat cgccacccgc
+     3601 accggtcacc ttcgacccga agacgcgctc gacgagattg tgcggttctt cgaggcgcgg
+     3661 gtttccgcct tgcgacggag cggggtcgct gccgaccggc tcatcctcga tccggggatg
+     3721 ggatttttct tgagccccgc accggaaaca tcgctgcacg tgctgtcgaa ccttcaaaag
+     3781 ctgaagtcgg cgttggggct tccgctattg gtctcggtgt cgcggaaatc cttcttgggc
+     3841 gccaccgttg gccttcctgt aaaggatctg ggtccagcga gccttgcggc ggaacttcac
+     3901 gcgatcggca atggcgctga ctacgtccgc acccacgcgc ctggagatct gcgaagcgca
+     3961 atcaccttct cggaaaccct cgcgaaattt cgcagtcgcg acgccagaga ccgagggtta
+     4021 gatcatgcct agcattcacc ttccggccgc ccgctagcgg accctggtca ggttccgcga
+     4081 aggtgggcgc agacatgctg ggctcgtcag gatcaaactg cactatgagg cggcggttca
+     4141 taccgcgcca ggggagcgaa tggacagcga ggagcctccg aacgttcggg tcgcctgctc
+     4201 gggtgatatc gacgaggttg tgcggctgat gcacgacgct gcggcgtgga tgtccgccaa
+     4261 gggaacgccc gcctgggacg tcgcgcggat cgaccggaca ttcgcggaga ccttcgtcct
+     4321 gagatccgag ctcctagtcg cgagttgcag cgacggcatc gtcggctgtt gcaccttgtc
+     4381 ggccgaggat cccgagttct ggcccgacgc cctcaagggg gaggccgcat atctgcacaa
+     4441 gctcgcggtg cgacggacac atgcgggccg gggtgtcagc tccgcgctga tcgaggcttg
+     4501 ccgccatgcc gcgcgaacgc aggggtgcgc caagctgcgg ctcgactgcc acccgaacct
+     4561 gcgtggccta ta
+//
+
